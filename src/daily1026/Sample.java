@@ -9,11 +9,11 @@ public class Sample extends Applet {
 
 //画像表示
 /*	public void paint(Graphics g){
-		this.img = getImage(hoge, "hoge.jpg");
-		g.drawImage(hoge, 10, 10, this);
+		this.img = getImage(getDocumentBase(), "hoge.jpg");
+		g.drawImage(getDocumentBase(), 10, 10, this);
 
-		this.img = getImage(hoge, "hoge2.jpg");
-		g.drawImage(hoge, 10, 10, this);
+		this.img = getImage(getDocumentBase(), "hoge2.jpg");
+		g.drawImage(getDocumentBase(), 10, 10, this);
 	}*/
 
 
