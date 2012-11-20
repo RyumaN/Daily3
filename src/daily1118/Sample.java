@@ -8,11 +8,13 @@ package daily1118;
 
 
 		public static void main(String[] args) {
-			char carray[] = {'あ', 'い', 'う', 'え', 'お'};
+						char carray[] = {'あ', 'い', 'う', 'え', 'お'};
 
-			for (int i = 0; i < 5; i ++){
-				System.out.println("carray[" + i + "] → " + carray[i]);
-			}
+						for (int i = 0; i < 5; i ++){
+							System.out.println("carray[" + i + "] → " + carray[i]);
+						}
+
+
 	}
 
 }
